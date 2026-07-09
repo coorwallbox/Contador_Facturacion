@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador Animado</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <main class="panel">
+
+        <!-- Contador principal (total de ventas) -->
+        <div class="contador" id="contador"></div>
+        <p class="contador-etiqueta">Total de facturacion</p>
+
+        <!-- Sección de vendedores -->
+        <section class="vendedores">
+            <h2 class="vendedores-titulo">Vendedores:</h2>
+
+            <!-- La lista se genera dinámicamente desde main.js -->
+            <ul class="vendedores-lista" id="listaVendedores"></ul>
+        </section>
+
+    </main>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
