@@ -16,11 +16,11 @@ const DURACION = 3000;
 // El HTML se genera automáticamente y el total del contador
 // se calcula como la suma de estas ventas.
 const VENDEDORES = [
-    { nombre: "DISTRIBUIDORA LOS COCHES LA SABANA S.A.S", ventas: 164 },
-    { nombre: "Carlos Alberto Martin",                    ventas: 17  },
-    { nombre: "Andrés Felipe Saavedra Rojas",             ventas: 28  },
-    { nombre: "Isay Duban Laverde Cetina",                ventas: 17  },
-    { nombre: "Internos",                                 ventas: 58 } 
+    { nombre: "DISTRIBUIDORA LOS COCHES LA SABANA S.A.S", ventas: 1 },
+    { nombre: "Carlos Alberto Martin",                    ventas: 0  },
+    { nombre: "Andrés Felipe Saavedra Rojas",             ventas: 11  },
+    { nombre: "Isay Duban Laverde Cetina",                ventas: 1  },
+    { nombre: "Internos",                                 ventas: 15 } 
 ];
 
 /*==================================================
