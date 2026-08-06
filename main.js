@@ -23,6 +23,7 @@ const VENDEDORES = [
     { nombre: "Internos",                                 ventas: 24 } 
 ];
 
+
 /*==================================================
 =           FIN CONFIGURACIÓN DEL CONTADOR         =
 ==================================================*/
