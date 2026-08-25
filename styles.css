@@ -124,3 +124,45 @@ body{
 /* Si el usuario tiene reducido el movimiento en su sistema,
    main.js detecta esta preferencia y muestra los valores finales
    sin animación. */
+ 
+/*==================================================
+=                     RESPONSIVE                    =
+==================================================*/
+
+/* Tablet / móvil grande */
+@media (max-width:600px){
+
+    .panel{
+        padding:28px 20px;
+    }
+
+    .contador{
+        font-size:56px;
+    }
+
+}
+
+/* Móvil pequeño */
+@media (max-width:380px){
+
+    .panel{
+        padding:20px 14px;
+    }
+
+    .contador{
+        font-size:44px;
+    }
+
+    .vendedor-fila{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:2px;
+    }
+
+    .vendedor-nombre{
+        white-space:normal; /* deja que el nombre haga salto de línea en vez de truncarse */
+        overflow:visible;
+        text-overflow:clip;
+    }
+
+}

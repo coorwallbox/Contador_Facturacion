@@ -34,9 +34,9 @@ const VENDEDORES = [
 // por: const VALOR_FINAL = 3000;
 const VALOR_FINAL = VENDEDORES.reduce((suma, v) => suma + v.ventas, 0);
 
-// Venta más alta: se usa para que la barra del líder llegue al 100%
-// y las demás sean proporcionales a él.
-const VENTA_MAXIMA = Math.max(...VENDEDORES.map(v => v.ventas));
+// Límite fijo de referencia: la barra de un vendedor llega al 100%
+// solo cuando sus ventas alcanzan este valor.
+const LIMITE_BARRA = 300;
 
 
 /*==================================================
@@ -104,7 +104,8 @@ function pintar(easing){
     filas.forEach(fila => {
         const ventasActuales = Math.floor(fila.ventas * easing);
         fila.cifra.textContent = ventasActuales.toLocaleString("es-CO");
-        fila.relleno.style.width = ((fila.ventas / VENTA_MAXIMA) * 100 * easing) + "%";
+        const porcentajeBarra = Math.min((fila.ventas / LIMITE_BARRA) * 100, 100);
+        fila.relleno.style.width = (porcentajeBarra * easing) + "%";
     });
 }
 
