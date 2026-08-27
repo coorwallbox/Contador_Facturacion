@@ -18,8 +18,8 @@ const DURACION = 3000;
 const VENDEDORES = [
     { nombre: "Los Coches La Sabana",                     ventas: 50 },
     { nombre: "Carlos Alberto Martin",                    ventas: 0  },
-    { nombre: "Andrés Felipe Saavedra Rojas",             ventas: 65  },
-    { nombre: "Isay Duban Laverde Cetina",                ventas: 37  },
+    { nombre: "Andrés Felipe Saavedra Rojas",             ventas: 66  },
+    { nombre: "Isay Duban Laverde Cetina",                ventas: 42  },
     { nombre: "Internos",                                 ventas: 65 } 
 ];
 
