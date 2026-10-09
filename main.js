@@ -19,7 +19,7 @@ const VENDEDORES = [
     { nombre: "Los Coches La Sabana",                     ventas: 46 },
     { nombre: "Carlos Alberto Martin",                    ventas: 0  },
     { nombre: "Andrés Felipe Saavedra Rojas",             ventas: 0  },
-    { nombre: "Isay Duban Laverde Cetina",                ventas: 6  },
+    { nombre: "Isay Duban Laverde Cetina",                ventas: 7  },
     { nombre: "Internos",                                 ventas: 26 } 
 ];
 
