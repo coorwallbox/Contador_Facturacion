@@ -20,7 +20,7 @@ const VENDEDORES = [
     { nombre: "Carlos Alberto Martin",                    ventas: 1  },
     { nombre: "Andrés Felipe Saavedra Rojas",             ventas: 0  },
     { nombre: "Isay Duban Laverde Cetina",                ventas: 0  },
-    { nombre: "Internos",                                 ventas: 0 } 
+    { nombre: "Internos",                                 ventas: 13 } 
 ];
 
 
