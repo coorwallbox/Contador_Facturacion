@@ -17,10 +17,10 @@ const DURACION = 3000;
 // se calcula como la suma de estas ventas.
 const VENDEDORES = [
     { nombre: "Los Coches La Sabana",                     ventas: 12 },
-    { nombre: "Carlos Alberto Martin",                    ventas: 1  },
-    { nombre: "Andrés Felipe Saavedra Rojas",             ventas: 2  },
+    { nombre: "Carlos Alberto Martin",                    ventas: 3  },
+    { nombre: "Andrés Felipe Saavedra Rojas",             ventas: 4  },
     { nombre: "Isay Duban Laverde Cetina",                ventas: 4  },
-    { nombre: "Internos",                                 ventas: 18 } 
+    { nombre: "Internos",                                 ventas: 19 } 
 ];
 
 
