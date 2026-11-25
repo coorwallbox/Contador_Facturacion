@@ -16,11 +16,11 @@ const DURACION = 3000;
 // El HTML se genera automáticamente y el total del contador
 // se calcula como la suma de estas ventas.
 const VENDEDORES = [
-    { nombre: "Los Coches La Sabana",                     ventas: 46 },
+    { nombre: "Los Coches La Sabana",                     ventas: 52 },
     { nombre: "Carlos Alberto Martin",                    ventas: 4  },
     { nombre: "Andrés Felipe Saavedra Rojas",             ventas: 22  },
-    { nombre: "Isay Duban Laverde Cetina",                ventas: 16  },
-    { nombre: "Victor Julian Ortiz Gamboa",                ventas: 1 },
+    { nombre: "Isay Duban Laverde Cetina",                ventas: 20  },
+    { nombre: "Victor Julian Ortiz Gamboa",                ventas: 2 },
     { nombre: "Internos",                                 ventas: 73 } 
 ];
 
